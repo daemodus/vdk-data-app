@@ -3,4 +3,3 @@ AS
     SELECT *
     FROM cities
     WHERE country = 'United States';
-    
