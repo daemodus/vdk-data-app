@@ -67,3 +67,9 @@ venv
 # Mac OS
 *.DS_Store
 *.xcworkspace
+
+# VDK project data source
+**/**/source
+
+# SQLite
+*.db
