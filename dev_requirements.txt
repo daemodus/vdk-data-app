@@ -1,5 +1,8 @@
 coverage==6.3.1
+
+# ``isort`` with support for ``requirements.txt``
 isort[requirements_deprecated_finder]==5.10.1
+
 pyflakes==2.4.0
 pylint==2.11.1
 pylint-quotes==0.2.3

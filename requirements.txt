@@ -1,0 +1,42 @@
+cachetools==5.0.0         # via google-auth
+certifi==2021.10.8        # via kubernetes, requests, vdk-control-service-api
+charset-normalizer==2.0.11  # via requests
+click==7.1.2              # via click-log, click-plugins, vdk-control-cli, vdk-core
+click-log==0.3.2          # via vdk-control-cli, vdk-core
+click-plugins==1.1.1      # via vdk-core
+click-spinner==0.1.10     # via vdk-control-cli, vdk-server
+docker==5.0.3             # via vdk-server
+google-auth==2.6.0        # via kubernetes
+idna==3.3                 # via requests
+kubernetes==21.7.0        # via vdk-server
+numpy==1.22.2             # via pandas
+oauthlib==3.2.0           # via requests-oauthlib
+pandas==1.4.0             # via -r requirements.in
+pluggy==0.13.1            # via vdk-control-cli, vdk-core
+pyasn1==0.4.8             # via pyasn1-modules, rsa
+pyasn1-modules==0.2.8     # via google-auth
+python-dateutil==2.8.2    # via kubernetes, pandas, vdk-control-service-api
+pytz==2021.3              # via pandas
+pyyaml==6.0               # via kubernetes
+quickstart-vdk==0.1.415625538  # via -r requirements.in
+requests==2.27.1          # via docker, kubernetes, requests-oauthlib, vdk-control-cli, vdk-plugin-control-cli
+requests-oauthlib==1.3.1  # via kubernetes, vdk-control-cli
+rsa==4.8                  # via google-auth
+six==1.16.0               # via google-auth, kubernetes, python-dateutil, vdk-control-service-api
+tabulate==0.8.9           # via vdk-control-cli, vdk-sqlite
+tenacity==8.0.1           # via vdk-core
+urllib3==1.26.8           # via kubernetes, requests, vdk-control-cli, vdk-control-service-api
+vdk-control-cli==1.1.434200173  # via vdk-plugin-control-cli
+vdk-control-service-api==1.0.6  # via vdk-control-cli
+vdk-core==0.0.462855700   # via quickstart-vdk, vdk-ingest-file, vdk-ingest-http, vdk-plugin-control-cli, vdk-server, vdk-sqlite
+vdk-ingest-file==0.1.461192871  # via quickstart-vdk
+vdk-ingest-http==0.1.461192871  # via quickstart-vdk
+vdk-plugin-control-cli==0.1.417315215  # via quickstart-vdk
+vdk-server==0.1.424970629  # via quickstart-vdk
+vdk-sqlite==0.1.461192871  # via quickstart-vdk
+websocket-client==1.2.3   # via docker, kubernetes
+wheel==0.37.1             # via -r requirements.in
+
+# The following packages are considered to be unsafe in a requirements file:
+# pip
+# setuptools
