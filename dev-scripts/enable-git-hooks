@@ -27,4 +27,5 @@ fi
 readonly SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 cd "${SCRIPT_DIR}/.."
 
-ln --symbolic --force ../dev-scripts/git-hooks .git/hooks
+# (szf) Do not use flage ``--symbolic`` nor ``--force``
+ln -s -f ../dev-scripts/git-hooks .git/hooks
