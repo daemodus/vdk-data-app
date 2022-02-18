@@ -21,7 +21,7 @@ def configure_logging():
 
 def main(_):
     configure_logging()
-    logger.info('Started runnning')
+    logger.info('Started running')
     print(dummy.dummy())
 
 
